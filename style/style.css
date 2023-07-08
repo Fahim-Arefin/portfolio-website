@@ -8,11 +8,11 @@ body {
 header {
   height: 837px;
   background-color: #fff8f3;
-  background-image: url("../images/developer.png"),
+  background-image: url("../images/developer.png"), url("../images/hardy.png"),
     url("../images/header_bg.png");
 
   background-repeat: no-repeat;
-  background-position: 2%, right bottom;
+  background-position: 2%, right 5% bottom, right bottom;
 }
 
 header .nav-content h3 {
@@ -59,5 +59,55 @@ header .nav-link button {
   background: #fd6e0a;
   text-color: white;
   color: #fff;
+  font-weight: 700;
+}
+
+header .about-me {
+  /* background-color: red; */
+  width: 45%;
+  margin: 5% 8%;
+  padding: 50px 100px;
+}
+
+.about-me h3 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.about-me h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+
+.about-me .about-me-content {
+  margin-top: 30px;
+}
+
+.about-me p {
+  width: 80%;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about-me .button-group {
+  background-color: red;
+  width: 550px;
+}
+.button-group:nth-of-type(2) {
+  margin-left: 100px;
+}
+
+.about-me-content button {
+  width: 200px;
+  height: 64px;
+  background-color: #fd6e0a;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
   font-weight: 700;
 }
